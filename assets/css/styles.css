@@ -645,6 +645,20 @@ footer {
     gap: 20px;
 }
 
+.contact-form-field {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.contact-form-field label {
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: var(--secondary-color);
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+}
+
 .contact-form-block input,
 .contact-form-block textarea {
     width: 100%;

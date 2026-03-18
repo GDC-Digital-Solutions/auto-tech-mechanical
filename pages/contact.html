@@ -53,11 +53,26 @@
     <div class="contact-form-block">
       <form id="contactForm"
         onsubmit="event.preventDefault(); alert('Message sent successfully! We will get back to you shortly.');">
-        <input type="text" placeholder="Full Name" required>
-        <input type="tel" placeholder="Phone Number" required>
-        <input type="email" placeholder="Email Address">
-        <input type="text" placeholder="Vehicle Make & Model (e.g. Toyota Hilux 2018)" required>
-        <textarea rows="5" placeholder="Tell us what's happening with your vehicle..." required></textarea>
+        <div class="contact-form-field">
+          <label for="fullName">Full Name</label>
+          <input id="fullName" type="text" placeholder="Full Name" required>
+        </div>
+        <div class="contact-form-field">
+          <label for="phoneNumber">Phone Number</label>
+          <input id="phoneNumber" type="tel" placeholder="Phone Number" required>
+        </div>
+        <div class="contact-form-field">
+          <label for="emailAddress">Email Address</label>
+          <input id="emailAddress" type="email" placeholder="Email Address">
+        </div>
+        <div class="contact-form-field">
+          <label for="vehicleDetails">Vehicle Make &amp; Model</label>
+          <input id="vehicleDetails" type="text" placeholder="Vehicle Make &amp; Model (e.g. Toyota Hilux 2018)" required>
+        </div>
+        <div class="contact-form-field">
+          <label for="message">Message</label>
+          <textarea id="message" rows="5" placeholder="Tell us what's happening with your vehicle..." required></textarea>
+        </div>
         <button type="submit" class="submit-btn">Send Message</button>
       </form>
     </div>
