@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://auto-tech-mechanical.netlify.app/sitemap.xml
+Sitemap: https://autotechmechanicalservices.co.nz/sitemap.xml
