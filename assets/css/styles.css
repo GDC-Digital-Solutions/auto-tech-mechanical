@@ -279,6 +279,13 @@ nav ul li a:hover {
     font-size: 0.95rem;
 }
 
+/* Center the last service card when it sits alone on the final row */
+@media (min-width: 960px) {
+    .services-grid .service-card:last-child {
+        grid-column: 2 / span 1;
+    }
+}
+
 /* Premium Services Page Styles */
 .premium-services-page {
     position: relative;
